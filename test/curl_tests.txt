@@ -1,0 +1,1 @@
+curl --request POST --url http://localhost:8080 --header 'Content-Type: text/plain' --data 'Hello!'
