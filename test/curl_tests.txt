@@ -1,1 +1,7 @@
 curl --request POST --url http://localhost:8080 --header 'Content-Type: text/plain' --data 'Hello!'
+
+curl --request GET --url http://localhost:8080?name=Dash
+
+curl --request POST --url http://localhost:8080 --header 'Content-Type: application/json' --data '{"hello": "world"}'
+
+curl --request POST --url http://localhost:8080 --data hello=world
